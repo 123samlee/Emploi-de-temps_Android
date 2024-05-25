@@ -1,0 +1,32 @@
+.montab {
+    border-collapse: collapse;
+    width: 100%;
+    cursor:pointer;
+    margin: 20px auto;
+    border: 1px solid #ddd;
+    box-shadow: 0px 5px 10px rgba(0,0,0,15);
+
+  }
+  thead tr{
+    background-color: midnightblue;
+    color:#ffff;
+    text-align: left;
+  }
+  .montab th, td {
+    text-align: left;
+    padding: 15px 20px;
+    border-bottom: 1px solid black;
+  }
+  tbody tr , td , th {
+    border: 1px solid #ddd;
+
+  }
+  
+ tbody tr:nth-child(even) {
+    background-color: #f3f3f3;
+ }
+
+ tbody tr:last-of-type{
+    border-bottom: 2px solid midnightblue;
+ }
+ 
